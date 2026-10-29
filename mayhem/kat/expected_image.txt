@@ -1,0 +1,72 @@
+IMAGE cd_audio_only.chd: last_block=3 is_dvd=0 has_audio=1 has_data=0
+toc 0: adr_ctl=14 point=a0 pmsf=01:00:00
+toc 1: adr_ctl=10 point=a1 pmsf=01:00:00
+toc 2: adr_ctl=10 point=a2 pmsf=00:02:04
+toc 3: adr_ctl=10 point=01 pmsf=00:02:00
+track 1: attr=10 msf=00:02:00
+sector 0: type=08 ret=1 len=2352 fnv=ccdf7115
+sector 1: type=08 ret=1 len=2352 fnv=4755a795
+sector 2: type=08 ret=1 len=2352 fnv=672069e5
+sector 3: type=08 ret=1 len=2352 fnv=2b41b475
+IMAGE cd_audio_rw.chd: last_block=7 is_dvd=0 has_audio=1 has_data=1
+toc 0: adr_ctl=14 point=a0 pmsf=01:00:00
+toc 1: adr_ctl=10 point=a1 pmsf=02:00:00
+toc 2: adr_ctl=10 point=a2 pmsf=00:02:08
+toc 3: adr_ctl=14 point=01 pmsf=00:02:00
+toc 4: adr_ctl=10 point=02 pmsf=00:02:04
+track 1: attr=14 msf=00:02:00
+track 2: attr=10 msf=00:02:04
+sector 0: type=00 ret=1 len=2064 fnv=10d38e36
+sector 1: type=00 ret=1 len=2064 fnv=a07d2d89
+sector 2: type=00 ret=1 len=2064 fnv=cb27f98c
+sector 3: type=00 ret=1 len=2064 fnv=f535306f
+IMAGE cd_data_audio.chd: last_block=7 is_dvd=0 has_audio=1 has_data=1
+toc 0: adr_ctl=14 point=a0 pmsf=01:00:00
+toc 1: adr_ctl=10 point=a1 pmsf=02:00:00
+toc 2: adr_ctl=10 point=a2 pmsf=00:02:08
+toc 3: adr_ctl=14 point=01 pmsf=00:02:00
+toc 4: adr_ctl=10 point=02 pmsf=00:04:04
+track 1: attr=14 msf=00:02:00
+track 2: attr=10 msf=00:04:04
+sector 0: type=00 ret=1 len=2064 fnv=10d38e36
+sector 1: type=00 ret=1 len=2064 fnv=a07d2d89
+sector 2: type=00 ret=1 len=2064 fnv=cb27f98c
+sector 3: type=00 ret=1 len=2064 fnv=f535306f
+IMAGE cd_mode1_2048.chd: last_block=3 is_dvd=0 has_audio=0 has_data=1
+toc 0: adr_ctl=14 point=a0 pmsf=01:00:00
+toc 1: adr_ctl=10 point=a1 pmsf=01:00:00
+toc 2: adr_ctl=10 point=a2 pmsf=00:02:04
+toc 3: adr_ctl=14 point=01 pmsf=00:02:00
+track 1: attr=14 msf=00:02:00
+sector 0: type=00 ret=1 len=2064 fnv=55deddbe
+sector 1: type=00 ret=1 len=2064 fnv=a7978f6f
+sector 2: type=00 ret=1 len=2064 fnv=356f6410
+sector 3: type=00 ret=1 len=2064 fnv=6c90d4d9
+IMAGE cd_mode2.chd: last_block=3 is_dvd=0 has_audio=0 has_data=1
+toc 0: adr_ctl=14 point=a0 pmsf=01:32:00
+toc 1: adr_ctl=10 point=a1 pmsf=01:00:00
+toc 2: adr_ctl=10 point=a2 pmsf=00:02:04
+toc 3: adr_ctl=14 point=01 pmsf=00:02:00
+track 1: attr=14 msf=00:02:00
+sector 0: type=20 ret=1 len=2064 fnv=10d38e36
+sector 1: type=20 ret=1 len=2064 fnv=a07d2d89
+sector 2: type=20 ret=1 len=2064 fnv=cb27f98c
+sector 3: type=20 ret=1 len=2064 fnv=f535306f
+IMAGE cd_raw_hunks.chd: last_block=1 is_dvd=0 has_audio=0 has_data=1
+toc 0: adr_ctl=14 point=a0 pmsf=01:00:00
+toc 1: adr_ctl=10 point=a1 pmsf=01:00:00
+toc 2: adr_ctl=10 point=a2 pmsf=00:02:02
+toc 3: adr_ctl=14 point=01 pmsf=00:02:00
+track 1: attr=14 msf=00:02:00
+sector 0: type=00 ret=1 len=2064 fnv=10d38e36
+sector 1: type=00 ret=1 len=2064 fnv=a07d2d89
+IMAGE dvd.chd: last_block=7 is_dvd=1 has_audio=0 has_data=1
+toc 0: adr_ctl=14 point=a0 pmsf=01:00:00
+toc 1: adr_ctl=10 point=a1 pmsf=01:00:00
+toc 2: adr_ctl=10 point=a2 pmsf=00:02:08
+toc 3: adr_ctl=14 point=01 pmsf=00:02:00
+track 1: attr=14 msf=00:02:00
+sector 0: type=00 ret=1 len=2064 fnv=10d38e36
+sector 1: type=00 ret=1 len=2064 fnv=021738e5
+sector 2: type=00 ret=1 len=2064 fnv=bb93e9d2
+sector 3: type=00 ret=1 len=2064 fnv=1e3ea42e

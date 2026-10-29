@@ -1,0 +1,33 @@
+FILE v4_none_hd.chd: version=4 hunkbytes=512 hunks=8 unitbytes=512 logical=4096 codec0=none
+hunk 0: fnv=1163d2c5
+hunk 1: fnv=e62db4c5
+hunk 2: fnv=d63befc5
+hunk 3: fnv=74bae5c5
+hunk 4: fnv=c7b0fec5
+hunk 5: fnv=a38fe0c5
+hunk 6: fnv=444eb9c5
+hunk 7: fnv=bc9a8dc5
+meta 0: tag=GDDD data=CYLS:2,HEADS:2,SECS:2,BPS:512
+FILE v5_none_cd.chd: version=5 hunkbytes=2448 hunks=1 unitbytes=2448 logical=2448 codec0=none
+hunk 0: fnv=1bd81185
+meta 0: tag=CHT2 data=TRACK:1 TYPE:MODE1_RAW SUBTYPE:NONE FRAMES:1 PREGAP:0 PGTYPE:MODE1 PGSUB:NONE POSTGAP:0
+FILE v5_none_hd.chd: version=5 hunkbytes=512 hunks=8 unitbytes=512 logical=4096 codec0=none
+hunk 0: fnv=1163d2c5
+hunk 1: fnv=e62db4c5
+hunk 2: fnv=d63befc5
+hunk 3: fnv=74bae5c5
+hunk 4: fnv=c7b0fec5
+hunk 5: fnv=a38fe0c5
+hunk 6: fnv=444eb9c5
+hunk 7: fnv=bc9a8dc5
+meta 0: tag=GDDD data=CYLS:2,HEADS:2,SECS:2,BPS:512
+FILE v5_zlib_text.chd: version=5 hunkbytes=512 hunks=8 unitbytes=512 logical=4096 codec0=zlib
+hunk 0: fnv=049c198b
+hunk 1: fnv=80e488cf
+hunk 2: fnv=6c0ee97b
+hunk 3: fnv=00eae0bf
+hunk 4: fnv=6405b473
+hunk 5: fnv=53069cff
+hunk 6: fnv=366f5ab3
+hunk 7: fnv=3f12836f
+meta 0: tag=GDDD data=CYLS:2,HEADS:2,SECS:2,BPS:512

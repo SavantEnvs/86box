@@ -1,0 +1,10 @@
+project: savantenvs/86box
+target: chd_image_fuzz
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/chd_image_fuzz/testsuite
+cmds:
+  - cmd: /mayhem/chd_image_fuzz
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/chd_image_fuzz/chd_image_fuzz.dict
+    timeout: 5
