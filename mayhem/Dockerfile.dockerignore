@@ -1,0 +1,10 @@
+# Prune the build context: the libchdr fuzz harness and KAT oracle need only src/cdrom/libchdr and mayhem/.
+# .git is deliberately KEPT (the image must hold the full mayhem-branch history).
+/doc
+/docs
+/debian
+/wl_protocols
+/.ci
+/build
+*.o
+*.a
